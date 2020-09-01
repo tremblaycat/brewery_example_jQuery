@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapscallion Brewing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="h1">RAPSCALLION<span class="brewing">Brewing</span></h1>
+      <nav class="nav">
+        <a class="link" href="#">News</a>
+        <a class="link" href="#">Brews</a>
+        <a class="link" href="#">Bites</a>
+      </nav>
+    </header>
+
+    <section id="section1">
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript">
+        $(window).scroll(function () {
+          var scroll_position = $(window).scrollTop() / 8;
+          $("section").css({
+            "background-position-x": -scroll_position + "px",
+          });
+        });
+      </script>
+
+      <h2 class="img-text">the taproom is</h2>
+      <span class="color">OPEN</span>
+    </section>
+
+    <section class="section2">
+      <div class="about">
+        <h2 class="about-title">Mischievous Brews For Adventurous You</h2>
+        <div class="border"></div>
+        <p>
+          At Rapscallion Brewing, we take personality seriously. That's why our
+          mission is to bring you unique that rocks your world, one tastebud at
+          a time. We know that when you work hard you deserve to play hard.
+        </p>
+        <p>
+          Established in Grand Rapids, MI in 2019, it's been a rough road for
+          our little brewpub. If we've learned anything, it's that the people in
+          our community are family, and that we won't quit no matter the odds.
+          You don't quit on family. You make them amazing beer.
+        </p>
+      </div>
+      <img class="about-img" src="/images/beer-pic.jpg" alt="taproom" />
+    </section>
+    <div class="img-container">
+      <img src="/images/beer-barrel.jpg" alt="" />
+    </div>
+  </body>
+</html>

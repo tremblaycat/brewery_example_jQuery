@@ -1,0 +1,115 @@
+body {
+  font-family: "Crimson Text", serif;
+  margin: 0;
+  padding: 0;
+  height: 1500px;
+  background-color: rgb(19, 19, 19);
+}
+
+.header {
+  position: relative;
+  background: white;
+  width: 100%;
+}
+
+.h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 30px;
+  letter-spacing: 0.3em;
+  margin: 0px 5px 0px 10px;
+  padding: 10px;
+}
+
+.brewing {
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
+
+.nav {
+  background-color: rgb(250, 225, 183);
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 25px;
+  color: black;
+  font-size: 12px;
+}
+
+.link:hover {
+  color: rgb(45, 136, 247);
+}
+
+#section1 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("/images/our-beer_fix.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+}
+
+.img-text {
+  color: rgb(148, 196, 255);
+  font-style: italic;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  text-shadow: 10px 10px 15px black;
+  display: flex;
+  justify-content: center;
+
+  margin: 80px 0px 0px 0px;
+}
+
+.color {
+  color: white;
+  font-size: 150px;
+  font-family: "Fredericka the Great", cursive;
+  text-align: center;
+  text-shadow: 10px 10px 15px black;
+}
+
+.section2 {
+  color: rgb(148, 196, 255);
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  align-items: center;
+}
+
+.about {
+  flex: 1;
+  padding-right: 25px;
+  justify-content: center;
+}
+
+.about-title {
+  font-style: italic;
+  color: white;
+}
+
+.border {
+  height: 0;
+  width: 25%;
+  border: none;
+  border-bottom: 1px solid rgb(250, 225, 183);
+}
+
+.about-img {
+  flex: 1;
+  width: 75px;
+  height: 50%;
+}
+
+.img-container {
+  overflow: hidden;
+  width: 100vw;
+}
